@@ -1,0 +1,11 @@
+1. To create the item :- curl -X POST -d "{\"title\":\"Hindustani\",\"director\":\"Sandip\",\"year\":2021}" -H "Content-Type: application/json" http://localhost:8080/movies
+
+-- created the second movie:- curl -X POST -d "{\"title\":\"Happy New Year\",\"director\":\"Neha\",\"year\":1998}" -H "Content-Type: application/json" http://localhost:8080/movies
+
+2. To list the items :- curl http://localhost:8080/movies
+
+3. To update the items :- curl -X PUT -d "{\"title\":\"Raja Hindustani\",\"director\":\"Kripesh\",\"year\":2002}" -H "Content-Type: application/json" http://localhost:8080/movies/1
+
+4. To delete the items :- curl -X DELETE http://localhost:8080/movies/1
+
+Attached the screenshot for the execution of the movies created, updated, read and deleted. 
